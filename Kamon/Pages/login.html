@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamon Theraphy | Login</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="menu-bar">
+                <div class="logo">
+                <!-- Image here -->
+                <img>
+                </div>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- Mobile Navigation Menu -->
+              <div class="topnav">
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                  <a href="index.html">Home</a>
+                  <a href="product.html">Product</a>
+                  <a href="faq.html">Faq</a>
+                  <a href="contact.html">Contact</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="las la-bars"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Main Content -->
+            <div class="intro">
+                <div class="intro-text">
+                    <p>Login / Sign Up</p>
+                </div>
+                <div class="h-back">
+                    <div class="arrow">
+                        <img src="../Images/arrow_back_ios_24px.png">
+                    </div>
+                    <div class="home">
+                        <a href="index.html">Home</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Login/Register Page -->
+            <div class="login">
+                <div class="l-title">
+                    <h2>Login</h2>
+                </div>
+                <div class="l-hr"></div>
+                <div class="log-form">
+                    <form action="/login" method="POST" name="login">
+                        <label for="email" class="email">Email address</label>
+                        <input type="email" name="email" placeholder="Dosamarvis@gmail.com" required>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" required>
+                        <input type="submit" value="Login" name="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="l-title sign">
+                <h2>Sign Up</h2>
+            </div>
+            <div class="l-hr s-hr"></div>
+            <div class="sign-form">
+                <form action="/sign" method="POST" name="signUp" >
+                    <label for="email" class="email sign">Email address</label>
+                    <input type="email" name="email" placeholder="Dosamarvis@gmail.com" required>
+                    <label for="password" class="pass">Password</label>
+                    <input type="password" name="password" required>
+                    <input type="submit" value="Sign Up" name="signUp">
+                </form>
+            </div>
+            <div class="download short">
+                <div class="app">
+                  <h2>Download our mobile app.</h2>
+                </div>
+                <div class="avail">
+                  <h4>Available on your favorite store. Start your premium experience now</h4>
+                </div>
+                <div class="playstore">
+                  <button>
+                    <a href="#">Playstore</a>
+                  </button>
+                </div>
+                <div class="appstore">
+                  <button>
+                    <a href="#">App store</a>
+                  </button>
+                </div>
+              </div>
+              <div class="foot footer">
+                <div class="another-bg"></div>
+                <div class="tweet">
+                  <a href="#"><img src="../Images/Vector-tweet.png"></a>
+                </div>
+                <div class="fb">
+                  <a href="#"><img src="../Images/Vector-fb.png"></a>
+                </div>
+                <div class="ig">
+                  <a href="#"><img src="../Images/Vector-ig.png" alt="IG"></a>
+                </div>
+                <p>&copy; Copywright 2020 HighQ Innovations</p>
+              </div>
+        </div>
+    </div>
+    <!-- Custom JS -->
+    <script src="../JS/bootstrap.min.js"></script>
+</body>
+</html>
