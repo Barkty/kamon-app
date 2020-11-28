@@ -806,7 +806,6 @@ label.email {
     width: 103px;
     height: 18px;
     left: 120px;
-    top: 605px;
     font-family: SF Pro Text;
     font-style: normal;
     font-weight: 600;
@@ -819,7 +818,7 @@ div.log-form form label.email {
     top: 204px;
 }
 label.sign {
-    top: 565px;
+    top: 690px;
     left: 756px;
 }
 div.log-form input:first-of-type {
@@ -835,7 +834,38 @@ div.sign-form input:first-of-type {
     position: absolute;
     width: 314px;
     left: 756px;
-    top: 620px;
+    top: 560px;
+    background-color:  #FFFFFF;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+div.sign-form form label[for="address"] {
+    position: absolute;
+    width: 103px;
+    top: 605px;
+    left: 756px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.4;
+}
+div.sign-form form input.address {
+    position: absolute;
+    width: 314px;
+    left: 756px;
+    top: 640px;
+    background-color:  #FFFFFF;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+div.sign-form form input[type="email"] {
+    position: absolute;
+    width: 314px;
+    left: 756px;
+    top: 740px;
     background-color:  #FFFFFF;
     border: none;
     border-bottom: 0.5px solid #000000;
@@ -858,7 +888,7 @@ label.pass {
     position: absolute;
     width: 103px;
     height: 18px;
-    top: 725px;
+    top: 780px;
     left: 756px;
     font-family: SF Pro Text;
     font-style: normal;
@@ -872,7 +902,7 @@ div.log-form form input[type="password"] {
     position: absolute;
     width: 314px;
     left: 120px;
-    top: 454px;
+    top: 404px;
     background-color:  #F2F2F2;
     border: none;
     border-bottom: 0.5px solid #000000;
@@ -882,6 +912,29 @@ div.sign-form form input[type="password"] {
     width: 314px;
     left: 756px;
     top: 820px;
+    background-color:  #FFFFFF;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+div.sign-form form label[for="confirm"] {
+    position: absolute;
+    width: 153px;
+    height: 18px;
+    top: 870px;
+    left: 756px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.4;
+}
+div.sign-form form input.confirm {
+    position: absolute;
+    width: 314px;
+    left: 756px;
+    top: 910px;
     background-color:  #FFFFFF;
     border: none;
     border-bottom: 0.5px solid #000000;
@@ -917,6 +970,47 @@ div.sign-form form input[type="submit"] {
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
+}
+div.log-form form a {
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    left: 200px;
+    top: 683px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #15A9A9;
+}
+div.sign-form form a {
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    left: 808px;
+    top: 1034px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #15A9A9;
+}
+div.sign-form form label:first-of-type {
+    position: absolute;
+    width: 103px;
+    top: 515px;
+    left: 756px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.4;
 }
 /* Responsiveness*/
 @media only screen and (max-width: 414px) {
@@ -1264,21 +1358,291 @@ div.sign-form form input[type="submit"] {
     div.footer {
         top: 1350px;
     }
+    div.login {
+        width: 414px;
+    }
+    div.l-title {
+        left: 56px;
+    }
+    div.l-hr {
+        left: 50px;
+    }
+    div.log-form form label.email, 
+    div.log-form input:first-of-type, 
+    div.log-form label:last-of-type, 
+    div.log-form form input[type="password"] {
+        left: 50px;
+    }
+    div.log-form label:last-of-type {
+        top: 314px;
+    }
+    div.log-form form input[type="password"] {
+        top: 354px;
+    }
+    div.log-form input:last-of-type {
+        top: 429px;
+        left: 70px;
+    }
+    div.log-form form a {
+        left: 100px;
+        top: 523px;
+    }
+    div.sign {
+        top: 927px;
+        left: 76px;
+    }
+    div.s-hr {
+        top: 990px;
+        left: 70px;
+    }
+    div.sign-form form label:first-of-type {
+        top: 1020px;
+        left: 50px;
+    }
+    div.sign-form input:first-of-type {
+        top: 1060px;
+        left: 50px;
+        background-color: #F2F2F2;
+    }
+    div.sign-form form label[for="address"] {
+        top: 1100px;
+        left: 50px;
+    }
+    div.sign-form form input.address {
+        top: 1140px;
+        left: 50px;
+    }
+    label.sign {
+        top: 1180px;
+        left: 50px;
+    }
+    div.footer {
+        top: 1800px;
+    }
+    div.short {
+        top: 1550px;
+    }
+    div.sign-form form input[type="email"] {
+        top: 1220px;
+        left: 50px;
+    }
+    label.pass {
+        top: 1260px;
+        left: 50px;
+    }
+    div.sign-form form input[type="password"] {
+        top: 1300px;
+        left: 50px;
+    }
+    div.sign-form form label[for="confirm"] {
+        top: 1340px;
+        left: 50px;
+    }
+    div.sign-form form input.confirm {
+        top: 1380px;
+        left: 50px;
+    }
+    div.sign-form form input[type="submit"] {
+        top: 1420px;
+        left: 50px;
+    }
+    div.sign-form form a {
+        top: 1500px;
+        left: 95px;
+    }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 600px) {
     body {
-        max-width: 400px;
+        max-width: 100%;
         margin: 0;
     }
     div.container {
-        width: 400px;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
     div.container1 {
-        width: 400px;
+        width: 100%;
         margin: 0;
         padding: 0;
+    }
+    div.menu-bar {
+        width: 100%;
+    }
+    div.menu-bar ul {
+        display: none;
+    }
+    div.intro {
+        max-width: 100%;
+        height: 100px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    div.login {
+        top: 228px;
+        width: 100%;
+    }
+    div.intro-text {
+        left: 20px;
+        top: 5px;
+    }
+    div.h-back {
+        width: 103px;
+        height: 34px;
+        left: 490px;
+        top: 32px;
+    }
+    div.arrow {
+        top: 1%;
+    }
+    div.home {
+        top: 5px;
+        left: 50px;
+    }
+    div.short {
+        top: 1100px;
+    }
+    div.footer {
+        top: 1350px;
+    }
+    div.log-form label:last-of-type {
+        top: 314px;
+    }
+    div.log-form form input[type="password"] {
+        top: 354px;
+    }
+    div.log-form input:last-of-type {
+        top: 429px;
+    }
+    div.log-form form a {
+        top: 523px;
+    }
+    div.sign {
+        top: 977px;
+        left: 196px;
+    }
+    div.s-hr {
+        top: 1050px;
+        left: 196px;
+    }
+    div.sign-form form label:first-of-type {
+        top: 1060px;
+        left: 100px;
+    }
+    div.sign-form input:first-of-type {
+        top: 1100px;
+        left: 100px;
+        background-color: #FFFFFF;
+    }
+    div.sign-form form label[for="address"] {
+        top: 1140px;
+        left: 100px;
+    }
+    div.sign-form form input.address {
+        top: 1180px;
+        left: 100px;
+    }
+    label.sign {
+        top: 1220px;
+        left: 100px;
+    }
+    div.footer {
+        top: 1800px;
+        width: 100%;
+    }
+    div.short {
+        top: 1600px;
+        width: 100%;
+    }
+    div.sign-form form input[type="email"] {
+        top: 1260px;
+        left: 100px;
+    }
+    label.pass {
+        top: 1300px;
+        left: 100px;
+    }
+    div.sign-form form input[type="password"] {
+        top: 1330px;
+        left: 100px;
+    }
+    div.sign-form form label[for="confirm"] {
+        top: 1360px;
+        left: 100px;
+    }
+    div.sign-form form input.confirm {
+        top: 1402px;
+        left: 100px;
+    }
+    div.sign-form form input[type="submit"] {
+        top: 1440px;
+        left: 100px;
+    }
+    div.sign-form form a {
+        top: 1520px;
+        left: 145px;
+    }
+    div.download {
+        max-width: 100%;
+        height: 205px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    div.app {
+        top: 2%;
+        left: 4%;
+    }
+    div.app h2 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+    div.avail {
+        left: 2%;
+        top: 16%;
+    }
+    div.avail h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    div.playstore {
+        left: 140px;
+        width: 94px;
+        height: 50px;
+        padding: 0px;
+        top: 120px;
+    }
+    div.playstore button {
+        margin-top: 10px;
+    }
+    div.appstore {
+        left: 300px;
+        top: 120px;
+        width: 94px;
+        height: 50px;
+        padding: 0px;
+    }
+    div.appstore button {
+        margin-top: 10px;
+    }
+    div.foot {
+        width: 100%;
+    }
+    div.another-bg {
+        width: 108px;
+        left: 10px;
+    }
+    div.tweet {
+        left: 40%;
+    }
+    div.fb {
+        left: 54%;
+    }
+    div.ig {
+        left: 70%;
+    }
+    div.foot p {
+        margin-left: 100px;
+        padding-top: 100px;
     }
 }
 @media only screen and (min-width: 640px) {
