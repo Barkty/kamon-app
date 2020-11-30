@@ -548,7 +548,7 @@ div.foot p {
     text-align: center;
     letter-spacing: 0.1px;
     color: #5C5C5C;
-    margin-left: 300px;
+    margin-left: 800px;
     padding-top: 50px;
 }
 /* Music Theraphy page */
@@ -1197,7 +1197,6 @@ div.rect-6 {
     height: 174px;
     left: 903px;
     top: 728px;
-    /* border: 3px solid #15A9A9; */
     box-sizing: border-box;
     border-radius: 12px;
 }
@@ -1216,6 +1215,406 @@ div.rect-6 a {
     text-align: center;
     color: #000000;
 } 
+/* Recent articles page */
+div.rec {
+    width: 200px;
+    left: 596px;
+}
+div.r-hr {
+    width: 230px;
+}
+div.square1 {
+    position: absolute;
+    width: 243px;
+    height: 237px;
+    left: 75px;
+    top: 506px;
+    background: #C4C4C4;
+}
+div.text-1 {
+    position: absolute;
+    width: 279px;
+    height: 56px;
+    left: 332px;
+    top: 506px;
+}
+div.text-1 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+div.text-1 + p {
+    position: absolute;
+    width: 149px;
+    height: 17px;
+    left: 332px;
+    top: 575px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p + p {
+    position: absolute;
+    width: 101px;
+    height: 17px;
+    left: 332px;
+    top: 598px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p.m-text-1 {
+    position: absolute;
+    width: 367px;
+    height: 90px;
+    left: 332px;
+    top: 606px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+div.read-1 {
+    position: absolute;
+    width: 167px;
+    height: 41px;
+    left: 332px;
+    top: 702px;
+    background: #15A9A9;
+    border-radius: 50px;
+}
+div.read-1 a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+div.square2 {
+    position: absolute;
+    width: 243px;
+    height: 237px;
+    left: 675px;
+    top: 506px;
+    background: #C4C4C4;
+}
+div.text-2 {
+    position: absolute;
+    width: 279px;
+    height: 56px;
+    left: 932px;
+    top: 506px;
+}
+div.text-2 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+div.text-2 + p {
+    position: absolute;
+    width: 149px;
+    height: 17px;
+    left: 932px;
+    top: 575px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p + p.date-2 {
+    position: absolute;
+    width: 101px;
+    height: 17px;
+    left: 932px;
+    top: 598px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p.m-text-2 {
+    position: absolute;
+    width: 317px;
+    height: 90px;
+    left: 932px;
+    top: 606px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+div.read-2 {
+    position: absolute;
+    width: 167px;
+    height: 41px;
+    left: 932px;
+    top: 702px;
+    background: #15A9A9;
+    border-radius: 50px;
+}
+div.read-2 a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+div.square3 {
+    position: absolute;
+    width: 243px;
+    height: 237px;
+    left: 75px;
+    top: 799px;
+    background: #C4C4C4;
+}
+div.text-3 {
+    position: absolute;
+    width: 279px;
+    height: 56px;
+    left: 332px;
+    top: 799px;
+}
+div.text-3 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+div.text-3 + p {
+    position: absolute;
+    width: 149px;
+    height: 17px;
+    left: 332px;
+    top: 869px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p + p.date-3 {
+    position: absolute;
+    width: 101px;
+    height: 17px;
+    left: 332px;
+    top: 891px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p.m-text-3 {
+    position: absolute;
+    width: 367px;
+    height: 90px;
+    left: 332px;
+    top: 899px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+div.read-3 {
+    position: absolute;
+    width: 167px;
+    height: 41px;
+    left: 332px;
+    top: 995px;
+    background: #15A9A9;
+    border-radius: 50px;
+}
+div.read-3 a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+div.square4 {
+    position: absolute;
+    width: 243px;
+    height: 237px;
+    left: 675px;
+    top: 799px;
+    background: #C4C4C4;
+}
+div.text-4 {
+    position: absolute;
+    width: 279px;
+    height: 56px;
+    left: 932px;
+    top: 799px;
+}
+div.text-4 p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #000000;
+}
+div.text-4 + p {
+    position: absolute;
+    width: 149px;
+    height: 17px;
+    left: 932px;
+    top: 869px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p + p.date-4 {
+    position: absolute;
+    width: 101px;
+    height: 17px;
+    left: 932px;
+    top: 891px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+p.m-text-4 {
+    position: absolute;
+    width: 317px;
+    height: 90px;
+    left: 932px;
+    top: 899px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+div.read-4 {
+    position: absolute;
+    width: 167px;
+    height: 41px;
+    left: 932px;
+    top: 995px;
+    background: #15A9A9;
+    border-radius: 50px;
+}
+div.read-4 a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+/* Article page */
+div.big-sq {
+    position: absolute;
+    width: 611px;
+    height: 453px;
+    left: 69px;
+    top: 555px;
+    background: #C4C4C4;
+}
+p.common {
+    position: absolute;
+    width: 577px;
+    height: 156px;
+    left: 69px;
+    top: 1000px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #15A9A9;
+}
+p.common + p {
+    position: absolute;
+    width: 255px;
+    height: 29px;
+    left: 86px;
+    top: 1194px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+p + p.dat {
+    position: absolute;
+    width: 195px;
+    height: 29px;
+    left: 379px;
+    top: 1194px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+p.info {
+    position: absolute;
+    width: 751px;
+    height: 480px;
+    left: 87px;
+    top: 1264px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+div.art {
+    top: 2000px;
+}
 /* Responsiveness*/
 @media only screen and (max-width: 414px) {
     /* Mobile */
