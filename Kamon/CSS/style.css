@@ -1,12 +1,12 @@
 body {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0;
 }
 div.container {
-    width: 1260px;
+    width: 100%;
 }
 div.container1 {
-    width: 1261px;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
@@ -16,7 +16,7 @@ div.menu-bar {
     align-items: flex-start;
     padding: 0px;
     position: absolute;
-    width: 1260px;
+    width: 100%;
     height: 125px;
     top: 1px;
     left: 0;
@@ -34,7 +34,7 @@ div.logo {
 ul {
     list-style-type: none;
     margin-top: 50px;
-    margin-left: 770px;
+    margin-left: 700px;
     padding: 0;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ li a {
 }
 div.topic {
     position: absolute;
-    width: 1262px;
+    width: 100%;
     height: 619px;
     left: 0px;
     top: 125px;
@@ -232,7 +232,7 @@ div.h-line {
 }
 div.about {
     position: absolute;
-    width: 1262px;
+    width: 100%;
     height: 506px;
     left: -12px;
     top: 1135px;
@@ -331,7 +331,7 @@ div.read-btn button a {
 }
 div.mission {
     position: absolute;
-    width: 1262px;
+    width: 100%;
     height: 490px;
     left: 1px;
     top: 1638px;
@@ -399,7 +399,7 @@ div.lorem1 p {
 }
 div.download {
     position: absolute;
-    width: 1262px;
+    width: 100%;
     height: 516px;
     left: 0px;
     top: 2129px;
@@ -498,7 +498,7 @@ div.appstore button a {
 div.foot {
     position: absolute;
     top: 2650px;
-    width: 1262px;
+    width: 100%;
     height: 133px;
 }
 div.another-bg {
@@ -617,7 +617,7 @@ div.home a {
 }
 div.bg-music {
     position: absolute;
-    width: 1262px;
+    width: 100%;
     height: 70px;
     top: 360px;
     left: 0px;
@@ -639,7 +639,7 @@ div.bg-white p {
 }
 div.theraphy {
     position: absolute;
-    width: 1262px;
+    width: 100%;
     height: 656px;
     left: 0px;
     top: 440px;
@@ -1012,6 +1012,210 @@ div.sign-form form label:first-of-type {
     color: #000000;
     opacity: 0.4;
 }
+        /* Dashboard */
+div.profile {
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    left: 606px;
+    top: 413px;
+}
+div.profile h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+} 
+div.p-hr {
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    left: 584px;
+    top: 469px;
+    background: #15A9A9;
+    border-radius: 40px;
+}   
+div.rect-1 {
+    position: absolute;
+    width: 300px;
+    height: 174px;
+    left: 103px;
+    top: 508px;
+    border: 3px solid #15A9A9;
+    box-sizing: border-box;
+    border-radius: 12px;
+}   
+div.rect-1 p {
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 10px;
+    top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+} 
+div.rect-1 p span {
+    font-weight: normal;
+}
+div.rect-2 {
+    position: absolute;
+    width: 300px;
+    height: 174px;
+    left: 503px;
+    top: 508px;
+    border: 3px solid #15A9A9;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+div.rect-2 p {
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 10px;
+    top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+} 
+div.rect-2 p span {
+    font-size: 18px;
+    font-weight: normal;
+}
+div.rect-3 {
+    position: absolute;
+    width: 300px;
+    height: 174px;
+    left: 903px;
+    top: 508px;
+    border: 3px solid #15A9A9;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+div.rect-3 p {
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 10px;
+    top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+} 
+div.change {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 90px;
+    top: 101px;
+    background: #15A9A9;
+    border-radius: 50px;
+}
+div.change a {
+    margin-left: 35px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+div.rect-4 {
+    position: absolute;
+    width: 300px;
+    height: 174px;
+    left: 103px;
+    top: 728px;
+    border: 3px solid #15A9A9;
+    box-sizing: border-box;
+    border-radius: 12px;
+}   
+div.rect-4 p {
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 10px;
+    top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+} 
+div.rect-4 p span {
+    font-weight: normal;
+}
+div.rect-5 {
+    position: absolute;
+    width: 300px;
+    height: 174px;
+    left: 503px;
+    top: 728px;
+    border: 3px solid #15A9A9;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+div.rect-5 p {
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 10px;
+    top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+} 
+div.rect-5 p span {
+    font-size: 18px;
+    font-weight: normal;
+}
+div.rect-6 {
+    position: absolute;
+    width: 300px;
+    height: 174px;
+    left: 903px;
+    top: 728px;
+    /* border: 3px solid #15A9A9; */
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+div.rect-6 a {
+    text-decoration: none;
+    position: absolute;
+    width: 272px;
+    height: 78px;
+    left: 10px;
+    top: 63px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+} 
 /* Responsiveness*/
 @media only screen and (max-width: 414px) {
     /* Mobile */
@@ -1079,7 +1283,7 @@ div.sign-form form label:first-of-type {
     }
     div.topic {
         top: 86px;
-        width: 414px;
+        width: 100%;
         height: 150px;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -1210,7 +1414,7 @@ div.sign-form form label:first-of-type {
     }
     div.download {
         top: 2029px;
-        max-width: 414px;
+        max-width: 100%;
         height: 255px;
         background-size: 200%;
         background-repeat: no-repeat;
@@ -1272,6 +1476,7 @@ div.sign-form form label:first-of-type {
         margin-left: 100px;
         padding-top: 100px;
     }
+    /* Music page */
     div.intro {
         top: 86px;
         max-width: 414px;
@@ -1301,18 +1506,18 @@ div.sign-form form label:first-of-type {
         left: 50px;
     }
     div.bg-music {
-        max-width: 414px;
+        max-width: 100%;
         top: 155px;
     }
     div.bg-white {
         left: 10px;
     }
     div.theraphy {
-        max-width: 414px;
+        max-width: 100%;
         top: 250px;
     }
     div.theraphy-text, div.text-right {
-        width: 414px;
+        width: 100%;
         left: 2px;
         top: 287px;
     }
@@ -1499,9 +1704,142 @@ div.sign-form form label:first-of-type {
         top: 5px;
         left: 50px;
     }
-    div.short {
-        top: 1100px;
+    div.topic {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 259px;
     }
+    div.topic-text {
+        top: 0%;
+        left: 2%;
+        bottom: 0px;
+    }
+    div.topic-text p {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    div.master-btn {
+        position: absolute;
+        top: 185px;
+        left: 10px;
+        bottom: 4px;
+        width: 156px;
+        height: 30px;
+        padding: 12px 0px;
+    }
+    div.brain-cards {
+        width: 414px;
+        top: 405px;
+        left: 90px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    div.card1 {
+        top: 20px;
+        left: 60px;
+        width: 300px;
+    }
+    div.img {
+        left: 100px;
+    }
+    div.music-text {
+        left: 50px;
+        width: 220px;
+    }
+    div.card2 {
+        top: 300px;
+        left: 60px;
+        width: 300px;
+    }
+    div.img2 {
+        left: 100px;
+    }
+    div.health-text {
+        left: 50px;
+        width: 220px;
+    }
+    div.card3 {
+        top: 580px;
+        left: 60px;
+        width: 300px;
+    }
+    div.img3 {
+        left: 90px;
+    }
+    div.habit-text {
+        left: 50px;
+        width: 220px;
+    }
+    div.h-line {
+        width: 360px;
+        left: 110px;
+        top: 1305px;
+    }
+    div.about {
+        max-width: 100%;
+        top: 1355px;
+    }
+    div.bg-brown {
+        top: 10px;
+        left: 140px;
+        height: 245px;
+    }
+    div.about-real {
+        top: 250px;
+        left: 30px;
+        width: 100%;
+    }
+    div.happy {
+        position: absolute;
+        height: 100px;
+        top: 40px;
+    }
+    div.happy h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    div.lorem {
+        top: 29%;
+        width: 100%;
+        height: 180px;
+        left: 0;
+    }
+    div.lorem p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    div.read-btn {
+        top: 345px;
+    }
+    div.mission {
+        top: 2008px;
+        max-width: 100%;
+        height: 270px;
+    }
+    div.our {
+        height: 50px;
+        top: 1%;
+    }
+    div.our h2 {
+        line-height: 20px;
+    }
+    div.provide {
+        top: 6%;
+    }
+    div.provide h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    div.mission-img {
+        display: none;
+    }
+    div.lorem1 {
+        top: 45%;
+        height: 128px;
+    }
+    /* div.short {
+        top: 1100px;
+    } */
     div.footer {
         top: 1350px;
     }
@@ -1548,11 +1886,10 @@ div.sign-form form label:first-of-type {
     }
     div.footer {
         top: 1800px;
-        width: 100%;
+        /* width: 100%; */
     }
     div.short {
-        top: 1600px;
-        width: 100%;
+        top: 700px;
     }
     div.sign-form form input[type="email"] {
         top: 1260px;
@@ -1584,9 +1921,13 @@ div.sign-form form label:first-of-type {
     }
     div.download {
         max-width: 100%;
+        top: 2249px;
         height: 205px;
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+    div.foot {
+        top: 1950px;
     }
     div.app {
         top: 2%;
@@ -1643,6 +1984,56 @@ div.sign-form form label:first-of-type {
     div.foot p {
         margin-left: 100px;
         padding-top: 100px;
+    }
+        /* Music page */
+    div.bg-music {
+        top: 205px;
+    }
+    div.bg-white {
+        left: 70px;
+    }
+    div.theraphy {
+        max-width: 100%;
+        height: 956px;
+        top: 280px;
+    }
+    div.theraphy-text, div.text-right {
+        width: 100%;
+        left: 7px;
+        /* top: 287px; */
+    }
+    div.head, div.head-right {
+        left: 7px;
+        /* top: 550px; */
+    }
+    div.more-text, div.more-right {
+        width: 100%;
+        left: 10px;
+        top: 650px;
+    }
+    div.quick, div.quick-right {
+        width: 300px;
+        height: 56px;
+        top: 838px;
+    }
+    div.quick-right {
+        left: 50px;
+    }
+    div.respond, div.respond-right {
+        width: 250px;
+        left: 98px;
+        top: 10px;
+    }
+    div.respond a, div.respond-right a {
+        font-weight: normal;
+        font-size: 20px;
+    } 
+    div.an-img, div.img-left {
+        max-width: 100%;
+        top: 300px;
+        left: 20px;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 }
 @media only screen and (min-width: 640px) {
