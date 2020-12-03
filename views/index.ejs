@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Kamon Mental Health Solution</title>
+    <meta name="description" content="Kamon is the leading mental health solution center in African that aids in..." >
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
-    <!-- <link rel="stylesheet" href="../CSS/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="CSS/bootstrap.min.css"> -->
     <!-- Icons -->
 </head>
 <body>
@@ -19,19 +20,39 @@
                 <img>
               </div>
               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="music.html">Products</a></li>
-                <li><a href="mental.html">Solutions</a></li>
-                <li><a href="login.html">Login/Sign Up</a></li>
+                <%if(isAuthenticated){%>
+                  
+                  <li><a href="/"></a></li>
+                  <li><a href="/music"></a></li>
+                  <li><a href="/mental"></a></li>
+                  <li><a href="/mental"></a></li>
+                  <li><a href="/mental"></a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/mental">Solutions</a></li>
+                  <li><a href="/music">Products</a></li>
+                  <li><a href="/Dashboard">Dashboard</a></li>
+                <%}else{%>
+                  <li><a href="/"></a></li>
+                  <li><a href="/music"></a></li>
+                  <li><a href="/mental"></a></li>
+                  <li><a href="/mental"></a></li>
+                  <li><a href="/mental"></a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/mental">Solutions</a></li>
+                  <li><a href="/music">Products</a></li>
+                <li><a href="/login">Login/Sign Up</a></li>
+
+                <%}%>
+
               </ul>
               <!-- Mobile Navigation Menu -->
               <div class="topnav">
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
-                  <a href="index.html">Home</a>
-                  <a href="product.html">Product</a>
-                  <a href="faq.html">Faq</a>
-                  <a href="contact.html">Contact</a>
+                  <a href="/index">Home</a>
+                  <a href="/product">Product</a>
+                  <a href="/faq">Faq</a>
+                  <a href="/contact">Contact</a>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -43,8 +64,8 @@
               <div class="topic-text">
                 <p>We Provide Best <br>SOLUTION For Your <br>HEALTH</p>
                 <div class="master-btn">
-                  <button>
-                    <a href="login.html">Contact Us</a>
+                  <button >
+                    <a href="/login">Contact Us</a>
                   </button>
                 </div>
               </div>
@@ -52,26 +73,17 @@
             <div class="brain-cards">
               <div class="card1">
                 <div class="img">
-                  <img src="../Images/mental 3.png">
+                  <img src="Images/mental 3.png">
                 </div>
                 <div class="music-text">
-                  <a href="music.html">Music Therapy <span>Solution</span></a>
+                  <a href="/music">Music Therapy <span>Solution</span></a>
                 </div>
-              </div>
-              <div class="card2">
-                <div class="img2">
-                  <img src="../Images/mental 3.png">
-                </div>
-                <div class="health-text">
-                  <a href="mental.html">Mental Health <span>Solution</span></a>
-                </div>
-              </div>
-              <div class="card3">
+            <div class="card3">
                 <div class="img3">
-                  <img src="../Images/mental 3.png">
+                  <img src="Images/mental 3.png">
                 </div>
                 <div class="habit-text">
-                  <a href="habit.html">Habit Tracker <span>Solution</span></a>
+                  <a href="/habit">Habit Tracker <span>Solution</span></a>
                 </div>
               </div>
             </div>
@@ -128,18 +140,20 @@
             <div class="foot">
               <div class="another-bg"></div>
               <div class="tweet">
-                <a href="#"><img src="../Images/Vector-tweet.png"></a>
+                <a href="#"><img src="Images/Vector-tweet.png"></a>
               </div>
               <div class="fb">
-                <a href="#"><img src="../Images/Vector-fb.png"></a>
+                <a href="#"><img src="Images/Vector-fb.png"></a>
               </div>
               <div class="ig">
-                <a href="#"><img src="../Images/Vector-ig.png" alt="IG"></a>
+                <a href="#"><img src="Images/Vector-ig.png" alt="IG"></a>
               </div>
               <p>&copy; Copywright 2020 HighQ Innovations</p>
             </div>
           </div>
     </div>
+
+    
     <!-- Chatbot -->
     <script>
       window.watsonAssistantChatOptions = {
@@ -155,8 +169,11 @@
       });
     </script>
     <!-- Mobile Menu -->
-    <script src="../JS/mobileNav.js"></script>
+    <script src="JS/mobileNav.js"></script>
     <!-- Custom JS -->
-    <script src="../JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+
+
+    <script src="JS/teach.js" ></script>
 </body>
 </html>

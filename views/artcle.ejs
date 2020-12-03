@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamon Medical Health | Blog</title>
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Icons -->
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
@@ -18,19 +18,36 @@
                 <img>
                 </div>
                 <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mental.html">Product</a></li>
-                <li><a href="music.html">Solutions</a></li>
-                <li><a href="login.html">Login/Sign Up</a></li>
+                  <%if(isAuthenticated){%>
+                  
+                    <li><a href="/"></a></li>
+                    <li><a href="/music"></a></li>
+                    <li><a href="/mental"></a></li>
+                    <li><a href="/mental"></a></li>
+                    <li><a href="/mental"></a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/dashboard">Dashboard</a></li>
+                  <%}else{%>
+                    <li><a href="/"></a></li>
+                    <li><a href="/music"></a></li>
+                    <li><a href="/mental"></a></li>
+                    <li><a href="/mental"></a></li>
+                    <li><a href="/mental"></a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/mental">Solutions</a></li>
+                    <li><a href="/music">Products</a></li>
+                  <li><a href="/login">Login/Sign Up</a></li>
+  
+                  <%}%>
                 </ul>
                 <!-- Mobile Navigation Menu -->
               <div class="topnav">
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
-                  <a href="index.html">Home</a>
-                  <a href="product.html">Product</a>
-                  <a href="faq.html">Faq</a>
-                  <a href="contact.html">Contact</a>
+                  <a href="/">Home</a>
+                  <a href="/product">Product</a>
+                  <a href="/faq">Faq</a>
+                  <a href="/contact">Contact</a>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -45,10 +62,10 @@
                 </div>
                 <div class="h-back">
                     <div class="arrow">
-                        <img src="../Images/arrow_back_ios_24px.png">
+                        <img src="Images/arrow_back_ios_24px.png">
                     </div>
                     <div class="home">
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
                     </div>
                 </div>
             </div>
@@ -57,23 +74,10 @@
             </div>
             <div class="p-hr r-hr"></div>
             <!-- Main article -->
-            <p style="position: absolute; top: 450px; left: 50px;">1.  Three Little Birds – Bob Marley</p>
-                 <iframe width="440" height="315" style="position: absolute; top: 500px; left: 50px;" src="https://www.youtube.com/embed/zaGUr6wzyT8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-            <p style="position: absolute; top: 800px; left: 50px;">2. Alive — Sia</p>
-            <iframe width="440" height="315" style="position: absolute; top: 850px; left: 50px;" src="https://www.youtube.com/embed/t2NgsJrrAyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p style="position: absolute; top: 1150px; left: 50px;">3. 1-800-273-8255 –Logic</p>   
-            <iframe width="440" height="315" style="position: absolute; top: 1200px; left: 50px;" src="https://www.youtube.com/embed/Kb24RrHIbFk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p style="position: absolute; top: 1500px; left: 50px;">4. I Won’t Give Up –Jason Mraz</p>
-            <iframe width="440" height="315" style="position: absolute; top: 1550px; left: 50px;" src="https://www.youtube.com/embed/O1-4u9W-bns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-            <p style="position: absolute; top: 450px; left: 640px;">6. Scars To Your Beautiful –Alessia Cara</p>
-            <iframe width="440" height="315" style="position: absolute; top: 500px; left: 640px;" src="https://www.youtube.com/embed/MWASeaYuHZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p style="position: absolute; top: 800px; left: 640px;">7. Nothing Else Matters –Metallica</p>
-            <iframe width="440" height="315" style="position: absolute; top: 850px; left: 640px;" src="https://www.youtube.com/embed/tAGnKpE4NCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p style="position: absolute; top: 1150px; left: 640px;">8. Fight Song –Rachel Platten</p>
-            <iframe width="440" height="315" style="position: absolute; top: 1200px; left: 640px;" src="https://www.youtube.com/embed/xo1VInw-SKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- <div class="big-sq"></div>
-            <p class="common">Common Symbols and Their Meanings </p> -->
-            <!-- <p class="dat">...30th Nov 2020</p>
+            <div class="big-sq"></div>
+            <p class="common">Common Symbols and Their Meanings </p>
+            <p>By Another Famous</p>
+            <p class="dat">...30th Nov 2020</p>
             <p class="info">
                 focuses on improving returns on assets by investing in emerging 
                 cities and market in Africa especially Nigeria. It engages in growing 
@@ -85,7 +89,7 @@
                 returns on assets by investing in emerging cities and market in Africa 
                 especially Nigeria. It engages in growing market need for accommodation 
                 of acceptable international standards by Nigerians at home and in Diaspora. 
-            </p> -->
+            </p>
             <!-- Article 1 -->
             <!-- <div class="square1"></div> -->
             <!-- <div class="text-1">
@@ -119,19 +123,19 @@
               <div class="foot footer art">
                 <div class="another-bg"></div>
                 <div class="tweet">
-                  <a href="#"><img src="../Images/Vector-tweet.png"></a>
+                  <a href="#"><img src="Images/Vector-tweet.png"></a>
                 </div>
                 <div class="fb">
-                  <a href="#"><img src="../Images/Vector-fb.png"></a>
+                  <a href="#"><img src="Images/Vector-fb.png"></a>
                 </div>
                 <div class="ig">
-                  <a href="#"><img src="../Images/Vector-ig.png" alt="IG"></a>
+                  <a href="#"><img src="Images/Vector-ig.png" alt="IG"></a>
                 </div>
                 <p>&copy; Copywright 2020 HighQ Innovations</p>
               </div>
         </div>
     </div>
     <!-- Custom JS -->
-    <script src="../JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamon Theraphy | Login</title>
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Icons -->
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
@@ -60,19 +60,19 @@
                 <img>
                 </div>
                 <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="mental.html">Product</a></li>
-                <li><a href="habit.html">Solutions</a></li>
-                <li><a href="login.html">Login/Sign Up</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/mental">Product</a></li>
+                <li><a href="/habit">Solutions</a></li>
+                <li><a href="/login">Login/Sign Up</a></li>
                 </ul>
                 <!-- Mobile Navigation Menu -->
               <div class="topnav">
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
-                  <a href="index.html">Home</a>
-                  <a href="product.html">Product</a>
-                  <a href="faq.html">Faq</a>
-                  <a href="contact.html">Contact</a>
+                  <a href="/">Home</a>
+                  <a href="/product">Product</a>
+                  <a href="/faq">Faq</a>
+                  <a href="/contact">Contact</a>
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -87,48 +87,55 @@
                 </div>
                 <div class="h-back">
                     <div class="arrow">
-                        <img src="../Images/arrow_back_ios_24px.png">
+                        <img src="Images/arrow_back_ios_24px.png">
                     </div>
                     <div class="home">
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
                     </div>
                 </div>
             </div>
             <!-- Login/Register Page -->
             <div class="login">
                 <div class="l-title">
+                  <%if(LogError){%>
+                    <h3 style="color: rgb(236, 64, 64);"> <%=error%> </h3> 
+                  <%}%>
                     <h2>Login</h2>
                 </div>
                 <div class="l-hr"></div>
                 <div class="log-form">
                     <form action="/login" method="POST" name="login" onsubmit="return validateForm()">
                         <label for="email" class="email">Email address</label>
-                        <input type="email" name="email" placeholder="Dosamarvis@gmail.com">
+                        <input type="email" name="username" placeholder="Dosamarvis@gmail.com">
                         <label for="password">Password</label>
                         <input type="password" name="password">
                         <input type="submit" value="Login" name="submit">
-                        <a href="#">Forgot Passcode?</a>
+                        <!-- <a href="#">Forgot Passcode?</a> -->
                     </form>
                 </div>
             </div>
             <div class="l-title sign">
+              <%if(LogError){%>
+                <h3 style="color: rgb(236, 64, 64);"> <%=LogError%> </h3> 
+              <%}%>
                 <h2>Sign Up</h2>
             </div>
             <div class="l-hr s-hr"></div>
             <div class="sign-form" id="signUp">
-                <form action="/sign" method="POST" name="signUp" onsubmit="return validForm()">
-                    <label for="full-name">Fullname</label>
-                    <input type="text" name="user" placeholder="Firstname                       Lastname">
-                    <label for="address">Address</label>
-                    <input type="text" name="address" class="address">
+                <form action="/registerUsers" method="POST" onsubmit="return validForm()">
+                    <label for="full-name">First Name</label>
+                    <input required type="text" name="firstName" placeholder="Enter your first name" >
+                    <input required type="hidden" name="id" >
+                    <label for="address">Last Name</label>
+                    <input required type="text" name="lastName" placeholder="Enter your last name" class="address">
                     <label for="email" class="email sign">Email address</label>
-                    <input type="email" name="email" placeholder="Dosamarvis@gmail.com">
-                    <label for="password" class="pass">Password</label>
-                    <input type="password" name="password">
-                    <label for="confirm">Confirm Password</label>
-                    <input type="password" name="confirm" class="confirm">
-                    <input type="submit" value="Sign Up" name="signUp">
-                    <a href="#">Forgot Passcode?</a>
+                    <input required type="email" name="email" placeholder="Dosamarvis@gmail.com">
+                    <label for="password" class="pass">Phone Number</label>
+                    <input required type="password" name="phone">
+                    <label for="confirm">  Password</label>
+                    <input required type="password" name="password" class="confirm">
+                    <input  type="submit" value="Sign Up">
+                    <!-- <a href="#">Forgot Passcode?</a> -->
                 </form>
             </div>
             <div class="download short reg">
@@ -152,19 +159,19 @@
               <div class="foot footer log">
                 <div class="another-bg"></div>
                 <div class="tweet">
-                  <a href="#"><img src="../Images/Vector-tweet.png"></a>
+                  <a href="#"><img src="Images/Vector-tweet.png"></a>
                 </div>
                 <div class="fb">
-                  <a href="#"><img src="../Images/Vector-fb.png"></a>
+                  <a href="#"><img src="Images/Vector-fb.png"></a>
                 </div>
                 <div class="ig">
-                  <a href="#"><img src="../Images/Vector-ig.png" alt="IG"></a>
+                  <a href="#"><img src="Images/Vector-ig.png" alt="IG"></a>
                 </div>
                 <p>&copy; Copywright 2020 HighQ Innovations</p>
               </div>
         </div>
     </div>
     <!-- Custom JS -->
-    <script src="../JS/bootstrap.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
 </body>
 </html>
